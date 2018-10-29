@@ -19,6 +19,6 @@ module.exports=[{text:"Consensus",path:"consensus.m4a",mime:"audio/mp4",color:nu
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var e=t(require("./components/SoundList"));function t(e){return e&&e.__esModule?e:{default:e}}var o={name:"App",components:{SoundList:e.default}};exports.default=o;
 (function(){var t=exports.default||module.exports;"function"==typeof t&&(t=t.options),Object.assign(t,{render:function(){var t=this.$createElement,e=this._self._c||t;return e("div",{attrs:{id:"main"}},[e("SoundList")],1)},staticRenderFns:[],_compiled:!0,_scopeId:null,functional:void 0});})();
 },{"./components/SoundList":"14qc"}],"epB2":[function(require,module,exports) {
-"use strict";var e=r(require("vue")),u=r(require("./App"));function r(e){return e&&e.__esModule?e:{default:e}}e.default.config.productionTip=!1,new e.default({el:"#app",render:function(e){return e(u.default)}});
-},{"vue":"QPfz","./App":"Js2s"}]},{},["epB2"], null)
-//# sourceMappingURL=main.ecfba03c.map
+"use strict";var e=n(require("vue")),r=n(require("./App"));function n(e){return e&&e.__esModule?e:{default:e}}e.default.config.productionTip=!1,new e.default({el:"#app",render:function(e){return e(r.default)}}),"serviceWorker"in navigator&&window.addEventListener("load",function(){navigator.serviceWorker.register("sw.js").then(function(e){}).catch(function(e){return console.log("SW error: ",e)})});
+},{"vue":"QPfz","./App":"Js2s","./sw.js":[["sw.js","NqYy"],"NqYy"]}]},{},["epB2"], null)
+//# sourceMappingURL=main.ba19d703.map
